@@ -1,7 +1,7 @@
-from torch import nn, optim
+from torch import nn
 import torch
 from torch.nn import functional as F
-from typing import Any, Callable, Optional
+from typing import Optional
 import math
 
 class WSLinear(nn.Module):
